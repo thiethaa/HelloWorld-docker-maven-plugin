@@ -11,7 +11,7 @@ public class HelloworldDockerMavenPluginApplication {
 
     @GetMapping("/")
     public String hello(){
-        return "Hello from TeamCity...";
+        return "Hello from TeamCity yeayyy...";
     }
     public static void main(String[] args) {
         SpringApplication.run(HelloworldDockerMavenPluginApplication.class, args);
